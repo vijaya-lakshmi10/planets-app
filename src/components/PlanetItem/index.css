@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.planet-details-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    color: #05acff;
+    font-family: 'Roboto';
+    font-size:32px;
+    font-weight:700;
+    line-height:1.2;
+}
+.planets-images{
+    height:250px;
+    width:250px;
+}
+.planet-name{
+    color: #f8fafc;
+    font-family: 'Roboto';
+    font-size:20px;
+}
+.desc{
+    color:#f1f5f9;
+    font-family: 'Roboto';
+    font-size:18px;
+    max-width:800px;
+}
+@media screen and (min-width:768px){
+    .planets-images{
+        height:410px;
+        width:300px;
+    }
+    .planet-name{
+        font-size: 32px;
+        margin-top:40px;
+    }
+    .heading{
+        font-size: 48px;
+        margin-bottom:50px;
+    }
+    .desc{
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+}
